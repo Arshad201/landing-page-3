@@ -64,7 +64,7 @@
 
 @media only screen and (max-width: 650px) {
     .video-container img{
-        width: 7rem;
+        display: none;
     }
 
     .video-container{
@@ -74,10 +74,6 @@
 }
 
 @media only screen and (max-width: 500px) {
-
-    .video-container img{
-        width: 5rem;
-    }
 
     .how-we-work .text-content{
         flex-direction: column;
