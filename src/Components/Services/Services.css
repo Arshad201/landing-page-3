@@ -1,0 +1,140 @@
+
+
+.services-wrapper{
+    width: 80%;
+    margin: 0rem auto;
+}
+
+.common-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7rem;
+}
+
+.heading-text-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.services-wrapper .paragraph-version-01{
+    padding: 0% 20%;
+}
+
+.services-grid{
+    width: 95%;
+    margin: 0rem auto;
+    gap: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    position: relative;
+}
+
+.service-card div{
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--pink);
+    border-radius: 50%;
+    position: absolute;
+    top: -7%;
+    left: -6%;
+    z-index: -1;
+    animation: floatingCircle 2s infinite ease;
+}
+
+@keyframes floatingCircle {
+    0%, 100% {
+        top: -7%;
+        left: -6%;
+    }
+
+    50% {
+        top: 0%;
+        left: 0%;
+        width: 3rem;
+        height: 3rem;
+    }
+  }
+
+.service-card img{
+    margin-bottom: 2rem;
+    width: 4.5rem;
+}
+
+.service-title{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.6em;
+    letter-spacing: 0.02em;
+    color: var(--darkBluishGreen);
+    white-space: nowrap;
+}
+
+.service-desc{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7em;
+    letter-spacing: 0.02em;
+    color: var(--darkBluishGreen);
+}
+
+@media only screen and (max-width: 1024px) {
+    .services-wrapper{
+        width: 95%;
+    }
+    .services-grid{
+        gap: 5%;
+    }
+}
+
+@media only screen and (max-width: 826px) {
+    .services-grid{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: start;
+    }
+}
+
+@media only screen and (max-width: 532px) {
+
+    .services-wrapper .paragraph-version-01{
+        padding: 0% 10%;
+    }
+
+    .services-grid{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0% 10%;
+        gap: 3.5rem;
+    }
+    
+    .service-card{
+        text-align: center;
+        align-items: center;
+    }
+
+    .service-card div{
+        left: 40% !important;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+
+    .services-wrapper .paragraph-version-01{
+        padding: 0rem 2rem;
+    }
+
+    .services-grid{
+        padding: 0%;
+    }
+}

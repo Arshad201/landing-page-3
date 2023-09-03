@@ -1,0 +1,148 @@
+.about-wrapper{
+    width: 85%;
+    margin: 0rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6.5rem;
+}
+
+.about-image-wrapper{
+    flex: 1;
+    position: relative;
+}
+
+.about-image-wrapper > img{
+    width: 90%;
+}
+
+.red-card{
+    position: absolute;
+    bottom: -7%;
+    right: 0%;
+    background-color: var(--red);
+    padding: 5rem 3.5rem;
+}
+
+.red-card > div{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.red-card-title{
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-size: 7rem;
+    font-weight: 400;
+    line-height: 0.8em;
+    letter-spacing: 0.01em;
+}
+
+.iconCircle{
+    background-color: var(--white);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconCircle img{
+    width: 2.6rem;
+}
+
+.red-card-desc{
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 1.4em;
+    letter-spacing: 0.01em;
+}
+
+.about-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about-content span{
+    text-transform: uppercase;
+    color: var(--Charcoal);
+    opacity: 0.6;
+    letter-spacing: 0.4rem;
+}
+
+.about-content .heading-version-1{
+    padding-right: 32%;
+}
+
+.about-content p{
+    color: var(--Charcoal);
+    opacity: 0.5;
+    line-height: 1.9em;
+    padding-right: 18%;
+}
+
+.about-content a{
+    text-decoration: none;
+    color: var(--Charcoal);
+    padding-top: 1.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .about-wrapper{
+        width: 90%;
+    }
+
+    .red-card{
+        padding: 3rem 2rem;
+    }
+
+    .red-card-title{
+        font-size: 5rem;
+    }
+
+    .red-card-desc{
+        font-size: 1.6rem;
+    }
+
+    .iconCircle{
+        height: 2.8rem;
+        width: 2.8rem;
+    }
+    
+    .iconCircle img{
+        width: 2rem;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .about-wrapper{
+        gap: 3rem;
+    }
+
+    .about-content{
+        gap: 1rem;
+    }
+
+    .about-content .heading-version-1{
+        padding-right: 0%;
+    }
+    
+    .about-content p{
+        padding-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about-wrapper{
+        flex-direction: column;
+        padding: 0rem 2rem;
+    }
+}

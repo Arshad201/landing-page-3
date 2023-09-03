@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Epilogue:wght@400;600;700&family=Inter&family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;700&display=swap');
+
+
+/* 
+
+font-family: 'DM Sans', sans-serif;
+font-family: 'Epilogue', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+ */
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+:root{
+  --white: white;
+  --black: black;
+  --red: #EA3D3C;
+  --lightGray: #F2F2F2;
+  --grayishBlue: #7B7D84;
+  --Charcoal: #333333;
+  --darkBluishGreen: #25373F;
+  --pink: #f9c5c5;
+  --strokeColor: #DDDDDD;
+  --strokeColor2: #E0DADA;
+  --SoftIcyMint: #F3F7F5;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: var(--white);
+}
+
+.heading-version-1{
+    
+  /*Epilogue - 6 Heading - 56 Bold */
+  font-family: 'Epilogue', sans-serif;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+}
+
+.heading-version-2{
+  /*Epilogue - 4 Heading - 40 Bold */
+  font-family: 'Epilogue', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.4em;
+  letter-spacing: 0.02em;
+}
+
+.paragraph-version-01{
+
+  /*Epilogue - 4 Paragraph - 20 regular */
+  font-family: 'Epilogue', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6em;
+  letter-spacing: 0.02em;
+
+}
+
+.item-version-01{
+  /*Epilogue - 12 Items - 16 regular */
+  font-family: 'Epilogue', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 0.02em;
+}
+
+.common-container{
+  padding: 10rem 0rem 5rem 0rem;
+}
+
+
+@media only screen and (max-width: 1920px) {
+  html{
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  html{
+    font-size: 87%;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  html{
+    font-size: 81%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  html{
+    font-size: 75%;
+  }
+}
+
+
+@media only screen and (max-width: 1500px) {
+  html{
+    font-size: 70%;
+  }
+}
+
+
+@media only screen and (max-width: 1366px) {
+  html{
+    font-size: 62.5%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  html{
+    font-size: 59.5%;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .heading-version-1{
+    font-size: 4rem;
+  }
+  .heading-version-2{
+    font-size: 3rem;
+  }
+
+  .paragraph-version-01{
+    font-size: 1.55rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .common-container{
+    padding: 7rem 0rem 3rem 0rem;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .common-container{
+    padding: 5rem 0rem 3rem 0rem;
+  }
+
+  .heading-version-1{
+    font-size: 3.5rem;
+  }
+  .heading-version-2{
+    font-size: 2.6rem;
+  }
+
+}
+
+
+
+
+
+

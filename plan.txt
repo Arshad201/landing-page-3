@@ -1,0 +1,312 @@
+<-----------------------Header----------------------->
+
+<===Navlinks===>
+
+font-family => Open Sans,
+font-size => 16,
+font-weight => regular
+
+<===Header Button===>
+
+font-family => Open Sans,
+font-size => 20,
+font-weight => semibold
+
+
+<-----------------------Hero----------------------->
+
+<===Subtitle===>
+
+font-family => Open Sans,
+font-size => 25,
+font-weight => regular
+
+<===Heading===>
+
+font-family => Open Sans,
+font-size => 62,
+font-weight => Bold
+
+<===Paragraph===>
+
+font-family => Inter,
+font-size => 18,
+font-weight => regular
+
+<===Button===>
+
+font-family => Poppins,
+font-size => 16,
+font-weight => Medium
+
+
+<-----------------------Explore Services----------------------->
+
+<===Heading===>
+
+font-family => Epilogue,
+font-size => 56,
+font-weight => Bold
+
+<===Paragraph===>
+
+font-family => Epilogue,
+font-size => 20,
+font-weight => regular
+
+<-------Card------->
+
+<===Card Title===>
+font-family => Epilogue,
+font-size => 22,
+font-weight => semibold
+
+<===Card Paragraph===>
+font-family => Inter,
+font-size => 16,
+font-weight => regular
+
+
+<-----------------------About----------------------->
+
+<===Subtitle===>
+font-family => Epilogue,
+font-size => 16,
+font-weight => regular
+
+<===Heading===>
+font-family => Epilogue,
+font-size => 56,
+font-weight => Bold
+
+<===Paragraph===>
+font-family => Epilogue,
+font-size => 16,
+font-weight => regular
+
+<===Learn more===>
+font-family => Epilogue,
+font-size => 16,
+font-weight => regular
+
+
+<-------Red Card------->
+
+<===Title===>
+font-family => Inter,
+font-size => 70,
+font-weight => regular
+
+<===Paragraph===>
+font-family => Inter,
+font-size => 24,
+font-weight => regular
+
+
+
+<-----------------------Our Work----------------------->
+
+<===Heading===>
+font-family => Epilogue,
+font-size => 56,
+font-weight => Bold
+
+<===Paragraph===>
+font-family => Epilogue,
+font-size => 20,
+font-weight => regular
+
+<-------Red Rectangle------->
+
+<===Subtitle===>
+font-family => Epilogue,
+font-size => 16,
+font-weight => regular
+
+<===Heading===>
+font-family => Epilogue,
+font-size => 40,
+font-weight => Bold
+
+<===Paragraph===>
+font-family => Epilogue,
+font-size => 16,
+font-weight => regular
+
+
+<-----------------------Progress Numbers----------------------->
+
+<===Title===>
+font-family => Epilogue,
+font-size => 56,
+font-weight => Bold
+
+<===Unit===>
+font-family => Epilogue,
+font-size => 40,
+font-weight => Bold
+
+<===Subtitle===>
+font-family => Epilogue,
+font-size => 20,
+font-weight => regular
+
+
+<-----------------------Analyze and Improve----------------------->
+
+<===Heading===>
+font-family => Epilogue,
+font-size => 56,
+font-weight => Bold
+
+<===Paragraph===>
+font-family => Epilogue,
+font-size => 16,
+font-weight => regular
+
+<===List===>
+font-family => Epilogue,
+font-size => 16,
+font-weight => regular
+
+
+<-----------------------How we work----------------------->
+
+<===Heading===>
+font-family => Epilogue,
+font-size => 40,
+font-weight => Bold
+
+<===Paragraph===>
+font-family => Epilogue,
+font-size => 16,
+font-weight => regular
+
+
+<-----------------------Team----------------------->
+
+<===Heading===>
+font-family => Epilogue,
+font-size => 56
+font-weight => Bold
+
+<===Paragraph===>
+font-family => Epilogue,
+font-size => 20,
+font-weight => regular
+
+
+<------Team Card------>
+
+<===Title===>
+font-family => Epilogue,
+font-size => 20
+font-weight => Bold
+
+<===Subtitle===>
+font-family => Epilogue,
+font-size => 16,
+font-weight => regular
+
+
+<-----------------------Testimonials----------------------->
+
+<===Heading===>
+font-family => Poppins,
+font-size => 40
+font-weight => Bold
+
+<===Paragraph===>
+font-family => Poppins,
+font-size => 16,
+font-weight => regular
+
+
+<------Testimonial Card------>
+
+<===Paragraph===>
+font-family => Poppins,
+font-size => 16,
+font-weight => regular
+
+<===Title===>
+font-family => Poppins,
+font-size => 18
+font-weight => Medium
+
+<===Subtitle===>
+font-family => Poppins,
+font-size => 14,
+font-weight => regular
+
+
+<-----------------------Famous Clients----------------------->
+
+<===Heading===>
+font-family => Epilogue,
+font-size => 24
+font-weight => Bold
+
+
+
+<-----------------------Blogs----------------------->
+
+<===Heading===>
+font-family => DM Sans,
+font-size => 42
+font-weight => Bold
+
+<--------Blog Card-------->
+
+<===Title===>
+font-family => DM Sans,
+font-size => 20
+font-weight => Bold
+
+<===Paragraph===>
+font-family => DM Sans,
+font-size => 16,
+font-weight => regular
+
+<===Learn More===>
+font-family => DM Sans,
+font-size => 16,
+font-weight => Bold
+
+<-----------------------Footer----------------------->
+
+<===Footer Logo===>
+font-family => Epilogue,
+font-size => 40,
+font-weight => Bold
+
+<===Footer Widget Heading===>
+font-family => Epilogue,
+font-size => 16,
+font-weight => regular
+
+<===Footer Widget Items===>
+font-family => Epilogue,
+font-size => 16,
+font-weight => regular
+
+<===Footer Copyright===>
+font-family => Epilogue,
+font-size => 16,
+font-weight => regular
+
+<===Footer Links===>
+font-family => Epilogue,
+font-size => 16,
+font-weight => regular
+
+
+Open Sans - 4 Different Fonts Sizes
+
+Inter - 4 Different Font Sizes
+
+DM Sans - 4 Different Font Sizes
+
+Poppins - 6 Different Font Sizes
+
+
